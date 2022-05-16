@@ -1,0 +1,31 @@
+{
+  "name": "armatukasa",
+  "version": "1.0.0",
+  "description": "Proyecto de bienes raices armatukasa con nodejs, Gulp, SASS",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch src/scss/:build/css",
+    "tarea": "gulp primerTarea",
+    "dev" : "gulp dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ernessang/armatukasa.git"
+  },
+  "keywords": [
+    "SASS",
+    "Gulp",
+    "nodejs"
+  ],
+  "author": "yoelon",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ernessang/armatukasa/issues"
+  },
+  "homepage": "https://github.com/ernessang/armatukasa#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-sass": "^5.1.0",
+    "sass": "^1.51.0"
+  }
+}
